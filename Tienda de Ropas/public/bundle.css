@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 80vz;
+  background-color: #f5f5f5;
+  padding: 70px 0;
+}
+.header .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .menu a {
+  text-decoration: none;
+}
+.header .menu a.logo {
+  font-size: 25px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.header .menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.header .menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #111111;
+  display: block;
+}
+.header .menu #menu {
+  display: none;
+}
+.header .menu label {
+  cursor: pointer;
+  display: none;
+}
+.header .menu label .menu__icono {
+  width: 25px;
+}
+.header .submenu {
+  position: relative;
+}
+.header .submenu #carrito {
+  display: none;
+}
+.header .submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  background-color: rgba(78, 75, 80, 0.462745098);
+  padding: 20px;
+  min-width: 400px;
+}
+.header .submenu table {
+  width: 100%;
+}
+.header .submenu table thead tr th {
+  color: #f5f5f5;
+}
+.header .submenu table .borrar {
+  background-color: #111111;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0 200px;
+}
+.header-content .header__img {
+  flex-basis: 50%;
+  text-align: center;
+}
+.header-content .header__txt {
+  flex-basis: 50%;
+  text-align: center;
+}
+.header-content .header__txt h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #111111;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 15px;
+}
+.header-content .header__txt p {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.header-content .header__txt .btn-1 {
+  display: inline-block;
+  padding: 11px 25px;
+  color: white;
+  border-radius: 5px;
+  background: #111111;
+  text-decoration: none;
+}
+
+.ofert {
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ofert .ofert-1 {
+  display: flex;
+  align-items: center;
+  flex-basis: calc(33.3% - 15px);
+  padding: 35px;
+  background-color: #f2f2f2;
+}
+.ofert img {
+  flex-basis: 50%;
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=bundle.css.map */

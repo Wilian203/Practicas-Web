@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/bundle.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <script defer src="public/bundle.js"></script>
+
+    <title>Tienda</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="header__navegacion">
+            <div class="col-sm-6">
+              <h1>Tienda</h1>
+            </div>
+            <div>
+              <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path
+                    d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                  />
+                </svg>
+
+                <div class="count-products">
+                  <span id="contador-productos">0</span>
+                </div>
+
+                <div class="container-cart-products hidden-cart">
+                  <div class="cart-product">
+                    <div class="info-cart-product">
+                      <span class="cantidad-producto-carrito">1</span>
+                      <p class="titulo-producto-carrito">Zapatos Nike</p>
+                      <span class="precio-producto-carrito">$80</span>
+                    </div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="icon-close"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </div>
+                  <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="productos container">
+      </section>
+    </main>
+
+    <footer
+      class="d-flex container flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© Creada por Wilian Marinez</span>
+      </div>
+
+      <div class="iconos">
+        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </footer>
+
+  </body>
+</html>

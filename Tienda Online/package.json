@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "tienda-online",
+  "version": "1.0.0",
+  "description": "Tienda Online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/sass/index.scss public/bundle.css",
+    "build": "rollup --watch --config"
+    
+  },
+  "author": "Wilian Marinez",
+  "license": "ISC",
+  "dependencies": {
+    "remixicon": "^4.2.0",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.18.0"
+  }
+}

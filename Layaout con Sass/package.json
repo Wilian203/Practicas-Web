@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sass": "^1.72.0"
+  },
+
+  "scripts": {
+    "sass":"sass --watch sass/index.scss public/bundle.css"
+  }
+}

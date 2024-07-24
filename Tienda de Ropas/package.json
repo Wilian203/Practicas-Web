@@ -1,0 +1,16 @@
+{
+  "name": "tienda-de-ropas",
+  "version": "1.0.0",
+  "description": "Tienda de ropas con HTML CSS y JavaScript",
+  "main": "scrip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass --watch sass/index.scss public/bundle.css"
+  },
+  "author": "Wilian Mariñez",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "sass": "^1.75.0"
+  }
+}
